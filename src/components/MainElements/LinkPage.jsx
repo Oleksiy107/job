@@ -4,21 +4,21 @@ function TopicDetail() {
   return (
     <div className="blockLinkPage">
       <div className="blockLinkPage__pageLink page-link">
-        <img src={photo} alt="photo" />
+        <img src={photo} alt="photo" className="page-link__img" />
         <a href="#" className="page-link__link">
           <h2 className="page-link__title">Сторінка 1</h2>
           <p className="page-link__text">Опис</p>
         </a>
       </div>
-      <div className="blockLinkPage__pageLink pageLink">
-        <img src={photo} alt="photo" />
+      <div className="blockLinkPage__pageLink page-link">
+        <img src={photo} alt="photo" className="page-link__img" />
         <a href="#" className="page-link__link">
           <h2 className="page-link__title">Сторінка 2</h2>
           <p className="page-link__text">Опис</p>
         </a>
       </div>
-      <div className="blockLinkPage__pageLink pageLink">
-        <img src={photo} alt="photo" />
+      <div className="blockLinkPage__pageLink page-link">
+        <img src={photo} alt="photo" className="page-link__img" />
         <a href="#" className="page-link__link">
           <h2 className="page-link__title">Сторінка 3</h2>
           <p className="page-link__text">Опис</p>

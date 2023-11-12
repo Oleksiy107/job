@@ -4,6 +4,8 @@ import App from "./components/App.jsx";
 import { HashRouter } from "react-router-dom";
 import "../scss/header.scss";
 import "../scss/root.scss";
+import "../scss/onePage.scss";
+import "../scss/topicDetail.scss";
 import "../scss/linkPage.scss";
 import "../scss/recomendation.scss";
 import "../scss/topicPhoto.scss";

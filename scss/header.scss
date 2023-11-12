@@ -1,13 +1,31 @@
 .header-block {
+  position: absolute;
   display: flex;
-  position: relative;
   gap: 2vw;
   justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2vw 0;
   &__text {
     color: #000;
     font-size: 1.5vw;
   }
   &__text:hover {
     text-decoration: underline;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header-block {
+    &__text {
+      font-size: 2.5vw;
+    }
+  }
+}
+@media screen and (max-width: 425px) {
+  .header-block {
+    &__text {
+      font-size: 3.5vw;
+    }
   }
 }

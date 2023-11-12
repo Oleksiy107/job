@@ -3,17 +3,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div
-      className="header-block"
-      style={{
-        position: "absolute",
-        top: 0,
-        left: 0,
-        width: "100%",
-
-        padding: "10px",
-      }}
-    >
+    <div className="header-block">
       <Link to="/" className="header-block__page">
         <p className="header-block__text">Main page</p>
       </Link>

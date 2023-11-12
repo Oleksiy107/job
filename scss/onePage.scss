@@ -1,0 +1,12 @@
+.blockWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vw;
+  padding: 10vw 0;
+}
+.topic-block1 {
+  &__title {
+    text-align: center;
+  }
+}
