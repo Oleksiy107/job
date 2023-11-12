@@ -1,0 +1,316 @@
+/*!***************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./scss/header.scss ***!
+  \***************************************************************************************************************************************/
+.header-block {
+  position: absolute;
+  display: flex;
+  gap: 2vw;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2vw 0;
+}
+.header-block__text {
+  color: #000;
+  font-size: 1.5vw;
+}
+.header-block__text:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+  .header-block__text {
+    font-size: 2.5vw;
+  }
+}
+@media screen and (max-width: 425px) {
+  .header-block__text {
+    font-size: 3.5vw;
+  }
+}
+/*!*************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./scss/root.scss ***!
+  \*************************************************************************************************************************************/
+.header-block {
+  position: absolute;
+  display: flex;
+  gap: 2vw;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2vw 0;
+}
+.header-block__text {
+  color: #000;
+  font-size: 1.5vw;
+}
+.header-block__text:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+  .header-block__text {
+    font-size: 2.5vw;
+  }
+}
+@media screen and (max-width: 425px) {
+  .header-block__text {
+    font-size: 3.5vw;
+  }
+}
+.blockLinkPage {
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+  padding: 8vw 4vw;
+  background: #333333;
+}
+
+.page-link {
+  width: 300px;
+}
+.page-link__img {
+  width: 100%;
+}
+.page-link__link {
+  color: #fff;
+}
+.page-link__title {
+  padding: 1vw 0;
+}
+
+@media screen and (max-width: 425px) {
+  .blockLinkPage {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+.recommendation-container {
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+  padding: 4vw;
+  background: #333333;
+}
+.recommendation-container__article-link {
+  width: 300px;
+}
+
+.recommendation-container2 {
+  background: #333333;
+}
+.recommendation-container2__title {
+  padding: 4vw 0;
+  color: #fff;
+  text-align: center;
+}
+
+.article-link {
+  width: 300px;
+}
+.article-link__title {
+  color: #fff;
+}
+.article-link__link {
+  color: #fff;
+}
+.article-link__photo {
+  width: 100%;
+}
+
+@media screen and (max-width: 425px) {
+  .recommendation-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.photoBlock {
+  height: 50vw;
+}
+.photoBlock__blockTopic {
+  position: relative;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1015px) {
+  .photoBlock__title {
+    font-size: 3vw;
+  }
+  .photoBlock__text {
+    font-size: 2.5vw;
+  }
+}
+@media screen and (max-width: 425px) {
+  .photoBlock {
+    height: 70vw;
+  }
+  .photoBlock__title {
+    font-size: 4vw;
+  }
+  .photoBlock__text {
+    font-size: 3vw;
+  }
+}
+.blockDetailTopic {
+  padding: 6vw 0 4vw 15vw;
+  background: #333333;
+}
+.blockDetailTopic__title {
+  color: #fff;
+}
+
+.blockWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vw;
+  padding: 10vw 0;
+}
+
+.topic-block1__title {
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+/*!****************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./scss/onePage.scss ***!
+  \****************************************************************************************************************************************/
+.blockWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vw;
+  padding: 10vw 0;
+}
+
+.topic-block1__title {
+  text-align: center;
+}
+/*!********************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./scss/topicDetail.scss ***!
+  \********************************************************************************************************************************************/
+.blockDetailTopic {
+  padding: 6vw 0 4vw 15vw;
+  background: #333333;
+}
+.blockDetailTopic__title {
+  color: #fff;
+}
+/*!*****************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./scss/linkPage.scss ***!
+  \*****************************************************************************************************************************************/
+.blockLinkPage {
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+  padding: 8vw 4vw;
+  background: #333333;
+}
+
+.page-link {
+  width: 300px;
+}
+.page-link__img {
+  width: 100%;
+}
+.page-link__link {
+  color: #fff;
+}
+.page-link__title {
+  padding: 1vw 0;
+}
+
+@media screen and (max-width: 425px) {
+  .blockLinkPage {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+/*!**********************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./scss/recomendation.scss ***!
+  \**********************************************************************************************************************************************/
+.recommendation-container {
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+  padding: 4vw;
+  background: #333333;
+}
+.recommendation-container__article-link {
+  width: 300px;
+}
+
+.recommendation-container2 {
+  background: #333333;
+}
+.recommendation-container2__title {
+  padding: 4vw 0;
+  color: #fff;
+  text-align: center;
+}
+
+.article-link {
+  width: 300px;
+}
+.article-link__title {
+  color: #fff;
+}
+.article-link__link {
+  color: #fff;
+}
+.article-link__photo {
+  width: 100%;
+}
+
+@media screen and (max-width: 425px) {
+  .recommendation-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/*!*******************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./scss/topicPhoto.scss ***!
+  \*******************************************************************************************************************************************/
+.photoBlock {
+  height: 50vw;
+}
+.photoBlock__blockTopic {
+  position: relative;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1015px) {
+  .photoBlock__title {
+    font-size: 3vw;
+  }
+  .photoBlock__text {
+    font-size: 2.5vw;
+  }
+}
+@media screen and (max-width: 425px) {
+  .photoBlock {
+    height: 70vw;
+  }
+  .photoBlock__title {
+    font-size: 4vw;
+  }
+  .photoBlock__text {
+    font-size: 3vw;
+  }
+}
