@@ -1,0 +1,11 @@
+.photoBlock {
+  height: 50vw;
+  &__blockTopic {
+    width: 50%; /* или любой другой размер блока, который вы хотите */
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

@@ -1,0 +1,15 @@
+.blockLinkPage {
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+  padding: 8vw 0;
+  background: #333333;
+}
+.page-link {
+  &__link {
+    color: #fff;
+  }
+  &__title {
+    padding: 1vw 0;
+  }
+}
